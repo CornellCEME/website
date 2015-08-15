@@ -1,0 +1,312 @@
+	body
+			{
+			padding:0;
+			margin: 0;
+			}
+			
+			p
+			{
+			font-size: 36px;
+			}
+			
+			.pagelabel
+			{
+			float: right;
+			font-family: Helvetica;
+			padding-top: 200px;
+			padding-right: 40px;
+			padding-bottom: 10px;
+			padding-left: 10px;
+			right: 0;
+			font-weight: 200;
+			font-size: 24px;
+			color: #FFFFFF;
+			border-bottom-style:solid;
+			border-bottom-width: 1px;
+			border-bottom-color: #FFFFFF;
+			}
+			
+			#socialmediamobile
+			{
+			background-color: #FFFFFF;
+			margin:0;
+			padding:30px;
+			text-align: center;
+			}
+			
+			
+			#socialmediamobile > li
+			{
+			display: inline;
+			list-style-type: none;
+			padding-right: 10px;
+			}
+			
+			.social
+			{
+			height: 80px;
+			padding: 0;
+			}
+			
+			h2
+			{
+			font-family: Helvetica;
+			font-size: 40px;
+			}
+			
+			.parentlinks a
+			{
+			text-decoration: none;
+			color: #800080;
+			}
+			
+			.childlinks a:hover
+			{
+			text-decoration: none;
+			color: #CCC;
+			}
+			
+			.parent a
+			{
+			text-decoration: none;
+			color: #800080;
+			}
+			
+			.child a
+			{
+			text-decoration: none;
+			color: #484848;
+			}
+			
+			.child a:hover
+			{
+			text-decoration: none;
+			color: #CCC;
+			}
+			
+			@font-face 
+			{
+			font-family: din_light;
+			src:url(../fonts/din_light.otf);
+			}
+			
+				@font-face 
+			{
+			font-family: din_bold;
+			src:url(../fonts/din_bold.otf);
+			}
+			
+			@font-face 
+			{
+			font-family: din_medium;
+			src:url(../fonts/din_medium.otf);
+			}
+			
+			#logo2
+			{
+			color:#FFFFFF;
+			height: 30%;
+			padding: 20px;
+			text-align: center;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			padding-right: 50px;
+			}
+		
+			#bar
+			{
+			font-family: din_medium;
+			padding: 10px;
+			background-color: #FFFFFF;
+			float: left;
+			}
+			
+			.parentlinks
+			{
+			white-space: nowrap;
+			font-size: 50px;
+			
+			}
+			
+			.parentlinks > li
+				{
+				display: block;
+				vertical-align: middle;
+				padding: 0;
+				}
+				
+				.parentlinks > li:nth-child(1)
+				{
+				display: none;
+				border:none;
+				}
+				
+				#mobilelogo
+				{
+				padding: 10px;
+				border-bottom-style: dotted;
+				border-bottom-width: 1px;
+				border-bottom-color: #CCC;
+				}
+				
+				
+			.parentlinks
+				{
+				display: block;
+   				list-style-type: none;
+				width: 100%;
+				margin: 0;
+				padding: 0;
+				text-align: center;
+				}
+				
+				.childlinks
+				{
+				visibility:hidden;
+				position: absolute;
+				padding: 0;
+				margin: 0;
+				opacity:0;
+				font-family: din_light;
+ 				transition:opacity 0.35s linear;
+				text-align: left;
+				}
+				
+			.parent > li
+				{
+				display: none;
+				float: left;
+				font-family: din_medium;
+				width: 16%;
+				}
+				
+			.parent
+				{
+				margin: 0;
+				padding: 0;
+				padding-top: 10px;
+				list-style-type:none;
+				padding-left: 10%;
+				padding-right: 10%;
+				border-top-style: solid;
+				border-top-width: 1px;
+				border-top-color: #CCC;
+				}
+				
+			.child
+				{
+				margin:0;
+				padding:0;
+				}
+				
+			.child > li
+				{
+				display: none;
+				font-family: din_light;
+				font-size: 12px;
+				}
+				
+			#bottombar
+				{
+				margin-bottom: 0;
+				margin-top: 0;
+				display: none;
+				}
+				
+				.content
+				{
+				padding: 0;
+				}
+	
+				.subpagecontent
+				{
+				padding: 0;
+				font-family: Georgia;
+				color: #484848;
+				font-size: 36px;
+				}
+				
+					
+				.divwrapper
+				{
+			
+				}
+				
+				
+			 	.clear
+				{clear:both;
+				}
+				
+				h3
+				{
+				font-family: Helvetica;
+				font-size: 40px;
+				color:#999;
+				}
+				
+				#dropdown
+				{
+				padding: 24px;
+				background-color: #FFFFFF;
+				font-family: din_medium;
+				}
+				
+				#messagehead
+				{
+				font-family: Helvetica;
+				font-size: 36px;
+				color: #FFFFFF;
+				border-bottom-style: solid;
+				border-bottom-color: #FFFFFF;
+				border-bottom-width: 1px;
+				padding: 5px;
+				font-weight: 200;
+				}
+				
+				#messagecontent
+				{
+				font-family: Georgia;
+				font-size: 18px;
+				color: #FFFFFF;
+				padding-left: 5px;
+				padding-right: 5px;
+				margin-top: 5px;
+				}
+				
+				#messagecontent a
+				{
+				color: #FF0;
+				}
+				
+				#message
+				{
+				color: #FFFFFF;
+				padding: 10px;
+				width: 30%;
+				display: none;
+				}
+				
+			#banner
+			{
+			background-size: cover;
+			width: 100%;
+			height: 550px;
+			overflow: hidden;
+			}
+			
+			.secondnavbar
+			{
+			font-size: 50px;
+			}
+			
+			#backtotop
+			{
+			text-align: center;
+			font-family: din_medium;
+			font-size: 36px;
+			padding-bottom: 40px;
+			color: #800080;
+			}
+			
+			

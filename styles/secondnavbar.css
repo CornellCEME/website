@@ -1,0 +1,27 @@
+			.secondnavbar
+				{
+				background-color: #696;
+				}
+				
+				.navlist > li
+				{
+				list-style-type: none;
+				text-decoration:none;
+				background-color: #FFFFFF;
+				color: #484848;
+				padding-left: 20px;
+				}
+				
+				.navlist a
+				{
+				text-decoration: none;
+				color: #484848;
+				}
+				
+				.navlist a:hover
+				{
+				text-decoration: none;
+				color: #CCC;
+				}
+					
+				

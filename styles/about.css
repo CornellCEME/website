@@ -1,0 +1,52 @@
+					#banner
+			{
+			background-image:url(../images/background1.jpg);
+			}
+				
+			
+				
+				#backgroundinfo
+				{
+				font-size: 16px;
+				padding: 20px;
+				text-align: justify;
+				border-left-style: solid;
+				border-left-width: 5px;
+				border-left-color: #CCC;
+				}
+				
+		
+				#backgroundinfoimg
+				{
+				float: right;
+				width: 200px;
+				padding-left: 20px;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				}
+				
+				#layout
+				{
+				padding-top: 5%;
+				padding: 20px;
+				font-size: 30px;
+				}
+				
+				#memberlist
+				{
+				padding: 20px;
+				}
+				
+				#imglayout
+				{
+				max-width: 450px;
+				}
+				
+					
+			#message
+				{
+				background-color: rgba(255,0,0,0.6);
+				float: left;
+				margin-top: 40px;
+				margin-left: 40px;
+				}

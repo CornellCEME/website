@@ -1,0 +1,49 @@
+					#banner
+			{
+			background-image:url(../images/background1.jpg);
+			}
+				
+			
+				
+				#backgroundinfo
+				{
+				font-size: 16px;
+				padding: 30px;
+				text-align: justify;
+				}
+				
+		
+				#backgroundinfoimg
+				{
+				float: right;
+				width: 200px;
+				padding-left: 30px;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				}
+				
+				#layout
+				{
+				padding-top: 5%;
+				padding: 30px;
+				font-size: 30px;
+				}
+				
+				#memberlist
+				{
+				padding: 30px;
+				}
+				
+				#imglayout
+				{
+				max-width: 450px;
+				}
+				
+					
+				#message
+				{
+				background-color: rgba(255,0,0,0.6);
+				float: left;
+				margin-top: 40px;
+				margin-left: 40px;
+				}
