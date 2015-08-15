@@ -2,10 +2,12 @@
 <html>
 <head>
 	<title>Cornell Eastern Music Ensemble</title>
-   	<link rel="stylesheet" type="text/css" href="styles/main.css" />
-    <link rel="stylesheet" type="text/css" href="styles/about.css" />
-    <!-- <link rel="stylesheet" type="text/css" href="styles/aboutexperiment.css" /> -->
+   <link rel="stylesheet" type="text/css" href="styles/main.css" media="only screen and (min-width: 999px)"/>
+	<link rel="stylesheet" type="text/css" href="styles/mobile.css" media="only screen and (max-width: 1000px)"/>
+ <link rel="stylesheet" type="text/css" href="styles/about.css" media="only screen and (min-width: 999px)"/>
+	<link rel="stylesheet" type="text/css" href="styles/aboutmobile.css" media="only screen and (max-width: 1000px)"/>
 	<link rel="stylesheet" type="text/css" href="styles/secondnavbar.css" />
+
     
 </head>
 <body>
@@ -46,42 +48,46 @@ include 'header.php';
             <h3>Orchestra Layout</h3>
            <img src="images/layout1.jpg" alt="layout" id="imglayout" />
             </div>
-
-            <!-- <div id="layout">
-            <h3>Orchestra Layout</h3>
-            <div id="imglayout">
-            <div id="innerHover" title="hover text"><div id="popupdiv"><h3>Fancy pop up content with no javascript! And it's backwards compatible to IE8!</h3></div></div>
-            </div> 
-            </div> -->
-             <div id="memberlist">
+            <div id="memberlist">
             <h3>Current CEME Members</h3>
             <p>
-                    <br>Greg Rosenthal&nbsp;&nbsp;:&nbsp;&nbsp;Cello
+                    <br>Marion Quien&nbsp;&nbsp;:&nbsp;&nbsp;Bassoon
+                    <br>Chris Du&nbsp;&nbsp;:&nbsp;&nbsp;Cello
                     <br>Victoria Sadasky&nbsp;&nbsp;:&nbsp;&nbsp;Cello
-                    <br>Yuhui Tang&nbsp;&nbsp;:&nbsp;&nbsp;Cello
-                    <br>Lining Zheng&nbsp;&nbsp;:&nbsp;&nbsp;Clarinet
-                    <br>Baldwin Mei&nbsp;&nbsp;:&nbsp;&nbsp;Erhu
+                    <br>Greg Rosenthal&nbsp;&nbsp;:&nbsp;&nbsp;Cello
+                    <br>Akie Tomiyama&nbsp;&nbsp;:&nbsp;&nbsp;Dizi
+                    <br>Ackerley Tng&nbsp;&nbsp;:&nbsp;&nbsp;Dizi
+                    <br>David Vakili&nbsp;&nbsp;:&nbsp;&nbsp;Dulcimer/Viola
                     <br>Shao Min Tan&nbsp;&nbsp;:&nbsp;&nbsp;Erhu
+                    <br>Jack Jiang&nbsp;&nbsp;:&nbsp;&nbsp;Erhu
                     <br>Weier (Will) Mi&nbsp;&nbsp;:&nbsp;&nbsp;Erhu
-                    <br>Yiheng Huang&nbsp;&nbsp;:&nbsp;&nbsp;Erhu
-                    <br>Casey Zhang&nbsp;&nbsp;:&nbsp;&nbsp;Flute
+                    <br>Baldwin Mei&nbsp;&nbsp;:&nbsp;&nbsp;Erhu
+                    <br>Jaiqi Su&nbsp;&nbsp;:&nbsp;&nbsp;Erhu
                     <br>Yuxi (Haley) Xiao&nbsp;:&nbsp;Flute
+                    <br>Casey Zhang&nbsp;&nbsp;:&nbsp;&nbsp;Flute
+                    <br>Kelly Huang&nbsp;&nbsp;:&nbsp;&nbsp;Flute
+                    <br>Di Wu&nbsp;&nbsp;:&nbsp;&nbsp;Flute
+                    <br>Yunan Nie&nbsp;&nbsp;:&nbsp;&nbsp;Flute
+                    <br>Tanapong Jiarathanakul&nbsp;:&nbsp;Flute/Dizi
+                    <br>Zeyu Yao&nbsp;&nbsp;:&nbsp;&nbsp;Flute/Percussion
+                    <br>Xin Gu&nbsp;&nbsp;:&nbsp;&nbsp;Guzheng
                     <br>Caroline Qu&nbsp;&nbsp;:&nbsp;&nbsp;Guzheng
-                    <br>Xin Ting Liao&nbsp;&nbsp;:&nbsp;&nbsp;Guzheng
-                    <br>Yiting Wang&nbsp;&nbsp;:&nbsp;&nbsp;Guzheng
-                    <br>Roddy Russell Jr.&nbsp;&nbsp;:&nbsp;&nbsp;Percussion
-                    <br>Lorien Hayden&nbsp;&nbsp;:&nbsp;&nbsp;Piano
-                    <br>Yao Mi&nbsp;&nbsp;:&nbsp;&nbsp;Pipa
-                    <br>Xinyuan Shi&nbsp;&nbsp;:&nbsp;&nbsp;Viola
-                    <br>David Li&nbsp;&nbsp;:&nbsp;&nbsp;Violin
-                    <br>Zongjie (Lisa) Wang&nbsp;&nbsp;:&nbsp;&nbsp;Yangqin
-            </p>        
+                    <br>Nolan Amon&nbsp;&nbsp;:&nbsp;&nbsp;Guzheng
+                    <br>Lang (Janet) Gao&nbsp;&nbsp;:&nbsp;&nbsp;Piano
+                    <br>Rui Zhou&nbsp;&nbsp;:&nbsp;&nbsp;Pipa
+                    <br>Edwin Lu&nbsp;&nbsp;:&nbsp;&nbsp;Violin
+                    <br>Joshua Tai&nbsp;&nbsp;:&nbsp;&nbsp;Violin
+                    <br>Bingyan Shi&nbsp;&nbsp;:&nbsp;&nbsp;Violin
+                    <br>Devin Wang&nbsp;&nbsp;:&nbsp;&nbsp;Violin
+                    <br>Ellie Zhang&nbsp;&nbsp;:&nbsp;&nbsp;Violin
+                    <br>Evy Li&nbsp;&nbsp;:&nbsp;&nbsp;Percussion
+                    <br>Daphne Liu&nbsp;&nbsp;:&nbsp;&nbsp;Percussion
+                    <br>Roddy Russel&nbsp;&nbsp;:&nbsp;&nbsp;Percussion
+                    
+            </p>
+        </div>
 
-                
-            </div>
-            <div id = "currentMemberPic">
-                <img src="images/currentMembers.jpg" id="imglayout" />
-                </div>
+        </div>
    </div>
         
 

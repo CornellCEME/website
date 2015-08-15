@@ -35,11 +35,22 @@
 				#memberlist
 				{
 				padding: 20px;
+				width: 50%;
 				}
 				
 				#imglayout
 				{
 				max-width: 450px;
+				}
+
+				#currentMemberPic
+				{
+				display: block;
+				position: relative;
+				left: 400px;
+				bottom: 400px;
+				padding-left: 20px;
+				padding-top: 20px;
 				}
 				
 					

@@ -2,8 +2,8 @@
 <html>
 <head>
 	<title>Cornell Eastern Music Ensemble</title>
-  <link rel="stylesheet" type="text/css" href="styles/main.css" media="only screen and (min-width: 999px)"/>
-	<link rel="stylesheet" type="text/css" href="styles/mobile.css" media="only screen and (max-width: 1000px)"/>
+  <link rel="stylesheet" type="text/css" href="styles/main.css" />
+	<!-- <link rel="stylesheet" type="text/css" href="styles/mobile.css" media="only screen and (max-width: 1000px)"/> -->
       <link rel="stylesheet" type="text/css" href="styles/mediagallery.css" media="only screen and (min-width: 999px)"/>
 	<link rel="stylesheet" type="text/css" href="styles/mediagallerymobile.css" media="only screen and (max-width: 1000px)"/>
     <link rel="stylesheet" type="text/css" href="styles/secondnavbar.css" />
@@ -29,7 +29,7 @@ include 'header.php';
 <div id="banner">
 <div id="message">
 <div id="messagehead">Media Gallery</div>
-<p id="messagecontent">See us in action. Look through our photos for the atmosphere of our ensemble. Watch our videos to see what we can do on stage. Want more? Like us on <a href="https://www.facebook.com/CornellCCME">Facebook</a>, follow us on <a href="https://www.twitter.com/ConellCEME">Twitter</a>, subscribe to our <a href="http://www.youtube.com/user/CornellCCME">Youtube</a> channel and we will keep you posted.</p>
+<p id="messagecontent">See us in action. Look through our photos for the atmosphere of our ensemble. Watch our videos to see what we can do on stage. Want more? Like us on <a href="https://www.facebook.com/CornellCEME">Facebook</a>, and subscribe to our <a href="https://www.youtube.com/channel/UCQWY21RfY2wara5IB5fwZ8A">Youtube</a> channel and we will keep you posted.</p>
 </div>
     </div>
 <div class="content">

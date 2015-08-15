@@ -4,7 +4,7 @@
 	<title>Cornell Eastern Music Ensemble</title>
    	<link rel="stylesheet" type="text/css" href="styles/main.css" />
     <link rel="stylesheet" type="text/css" href="styles/about.css" />
-    <link rel="stylesheet" type="text/css" href="styles/aboutexperiment.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="styles/aboutexperiment.css" /> -->
 	<link rel="stylesheet" type="text/css" href="styles/secondnavbar.css" />
     
 </head>
@@ -44,11 +44,16 @@ include 'header.php';
             </div>
             <div id="layout">
             <h3>Orchestra Layout</h3>
+           <img src="images/layout1.jpg" alt="layout" id="imglayout" />
+            </div>
+
+            <!-- <div id="layout">
+            <h3>Orchestra Layout</h3>
             <div id="imglayout">
             <div id="innerHover" title="hover text"><div id="popupdiv"><h3>Fancy pop up content with no javascript! And it's backwards compatible to IE8!</h3></div></div>
-            </div>
-            </div>
-             <div>
+            </div> 
+            </div> -->
+             <div id="memberlist">
             <h3>Current CEME Members</h3>
             <p>
                     <br>Marion Quien&nbsp;&nbsp;:&nbsp;&nbsp;Bassoon
@@ -85,7 +90,6 @@ include 'header.php';
                     <br>Roddy Russel&nbsp;&nbsp;:&nbsp;&nbsp;Percussion
                     
             </p>
-            <a href="http://www.meyerweb.com/eric/css/">Links<span>A collection of things which interest me, and might interest you</span></a>
         </div>
 
         </div>

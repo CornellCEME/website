@@ -2,9 +2,8 @@
       <div class="clear"></div>
     
       	<ul id="socialmediamobile">
-                   <li> <a href="https://www.facebook.com/CornellCCME"><img src="images/facebook.png" alt="facebook" class="social" /></a></li>
-                   <li> <a href="https://www.twitter.com/ConellCEME"><img src="images/twitter.png" alt="twitter" class="social" /></a></li>
-                    <li> <a href="http://www.youtube.com/user/CornellCCME"><img src="images/youtube.png" alt="youtube" class="social" /></a></li>
+                   <li> <a href="https://www.facebook.com/CornellCEME"><img src="images/facebook.png" alt="facebook" class="social" /></a></li>
+                    <li> <a href="https://www.youtube.com/channel/UCQWY21RfY2wara5IB5fwZ8A"><img src="images/youtube.png" alt="youtube" class="social" /></a></li>
                 </ul>
                   <div id="backtotop">
       <a href="#top">Back to Top</a>
@@ -44,9 +43,9 @@
          </li> 
          <li>
          	<ul id="socialmedia">
-                   <li> <a href="https://www.facebook.com/CornellCCME"><img src="images/facebook.png" alt="facebook" class="social" /></a></li>
-                   <li> <a href="https://www.twitter.com/ConellCEME"><img src="images/twitter.png" alt="twitter" class="social" /></a></li>
-                    <li> <a href="http://www.youtube.com/user/CornellCCME"><img src="images/youtube.png" alt="youtube" class="social" /></a></li>
+                   <li> <a href="https://www.facebook.com/CornellCEME"><img src="images/facebook.png" alt="facebook" class="social" /></a></li>
+                   <!-- <li> <a href="https://www.twitter.com/ConellCEME"><img src="images/twitter.png" alt="twitter" class="social" /></a></li> -->
+                    <li> <a href="https://www.youtube.com/channel/UCQWY21RfY2wara5IB5fwZ8A"><img src="images/youtube.png" alt="youtube" class="social" /></a></li>
                 </ul>
          </li>
         </ul> 

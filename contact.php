@@ -57,7 +57,7 @@ include 'header.php';
   $to = 'yw428@cornell.edu';
   $headers = "From: " . strip_tags($_POST['email']) . "\n";
   
-  echo mail('yitingwang0117@hotmail.com','Testing','hhh','From: yitingwang0117@hotmail.com');
+  mail($to,$subject,$message,$headers);
   
   echo "<p>Thank you for contacting us. We will respond to your message shortly.<p>"; 
   }
