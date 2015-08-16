@@ -46,7 +46,7 @@ include 'header.php';
         	<div id="photos">
             <h3>CEME Photo Gallery</h3>
             <section id="photogallery">
-            	  <a class="fancybox" data-fancybox-group="gallery" href="images/photos/2009/big/DSC_8866s.jpg"><img src="images/photos/2009/small/DSC_8866s.jpg" alt="img" /></a>
+            	<a class="fancybox" data-fancybox-group="gallery" href="images/photos/2009/big/DSC_8866s.jpg"><img src="images/photos/2009/small/DSC_8866s.jpg" alt="img" /></a>
                 <a class="fancybox" data-fancybox-group="gallery" href="images/photos/2009/big/DSC_8872s.jpg"><img src="images/photos/2009/small/DSC_8872s.jpg" alt="img" /></a>
                 <a class="fancybox" data-fancybox-group="gallery" href="images/photos/2009/big/DSC_8880s.jpg"><img src="images/photos/2009/small/DSC_8880s.jpg" alt="img" /></a>
                 <a class="fancybox" data-fancybox-group="gallery" href="images/photos/2009/big/DSC_8885s.jpg"><img src="images/photos/2009/small/DSC_8885s.jpg" alt="img" /></a>
@@ -98,7 +98,16 @@ include 'header.php';
                 <a class="fancybox" data-fancybox-group="gallery" href="images/photos/2013/big/IMG_4071.jpg"><img src="images/photos/2013/small/IMG_4071.jpg" alt="img" /></a>
                 <a class="fancybox" data-fancybox-group="gallery" href="images/photos/2013/big/IMG_4075.jpg"><img src="images/photos/2013/small/IMG_4075.jpg" alt="img" /></a>
                    
-                
+                <a class="fancybox" data-fancybox-group="gallery" href="images/photos/publication/big/_46A4947-2.jpg"><img src="images/photos/publication/small/_46A4947-2.jpg" alt="img" /></a>
+                <a class="fancybox" data-fancybox-group="gallery" href="images/photos/publication/big/_46A5161-2.jpg"><img src="images/photos/publication/small/_46A5161-2.jpg" alt="img" /></a>
+                <!-- <a class="fancybox" data-fancybox-group="gallery" href="images/photos/publication/big/051114_0218_1.jpg"><img src="images/photos/publication/small/051114_0218_1.jpg" alt="img" /></a> -->
+                <a class="fancybox" data-fancybox-group="gallery" href="images/photos/publication/big/051114_0228_01.jpg"><img src="images/photos/publication/small/051114_0228_01.jpg" alt="img" /></a>
+                <a class="fancybox" data-fancybox-group="gallery" href="images/photos/publication/big/DSC_0592-2.jpg"><img src="images/photos/publication/small/DSC_0592-2.jpg" alt="img" /></a>
+                <a class="fancybox" data-fancybox-group="gallery" href="images/photos/publication/big/DSC_0602-2.jpg"><img src="images/photos/publication/small/DSC_0602-2.jpg" alt="img" /></a>
+                <a class="fancybox" data-fancybox-group="gallery" href="images/photos/publication/big/DSC_00704sequenceChangeLH5A8003_1cut.jpg"><img src="images/photos/publication/small/DSC_00704sequenceChangeLH5A8003_1cut.jpg" alt="img" /></a>
+                <!-- <a class="fancybox" data-fancybox-group="gallery" href="images/photos/publication/big/Erhu05_46A5495-1.jpg"><img src="images/photos/publication/small/Erhu05_46A5495-1.jpg" alt="img" /></a> -->
+                <a class="fancybox" data-fancybox-group="gallery" href="images/photos/publication/big/Guzheng04_46A5434-1.jpg"><img src="images/photos/publication/small/Guzheng04_46A5434-1.jpg" alt="img" /></a>
+
                 </section>
             </div>
           	
