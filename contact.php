@@ -2,10 +2,10 @@
 <html>
 <head>
 	<title>Cornell Eastern Music Ensemble</title>
-     <link rel="stylesheet" type="text/css" href="styles/main.css" media="only screen and (min-width: 999px)"/>
-	<link rel="stylesheet" type="text/css" href="styles/mobile.css" media="only screen and (max-width: 1000px)"/>
-     <link rel="stylesheet" type="text/css" href="styles/contact.css" media="only screen and (min-width: 999px)"/>
-	<link rel="stylesheet" type="text/css" href="styles/contactmobile.css" media="only screen and (max-width: 1000px)"/>
+     <link rel="stylesheet" type="text/css" href="styles/main.css" media="only screen and (min-width: 400px)"/>
+	<link rel="stylesheet" type="text/css" href="styles/mobile.css" media="only screen and (max-width: 401px)"/>
+     <link rel="stylesheet" type="text/css" href="styles/contact.css" media="only screen and (min-width: 300px)"/>
+	<link rel="stylesheet" type="text/css" href="styles/contactmobile.css" media="only screen and (max-width: 301px)"/>
     <link rel="stylesheet" type="text/css" href="styles/secondnavbar.css" />
 	
 </head>
