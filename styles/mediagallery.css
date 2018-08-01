@@ -1,55 +1,10 @@
-			#banner
-			{
-			background-image:url(../images/IMG_4043.jpg);
-			}
-			
-				#photogallery
-			{
-   			line-height: 0;
-   			-webkit-column-count: 6;
-   			-webkit-column-gap: 0px;
-   			-moz-column-count: 6;
-   			-moz-column-gap: 0px;
-   			column-count: 6;
-   			column-gap: 0px;
-   			margin-top: 43px;
-			}
-			
-			#videos
-			{
-			border-top-style: solid;
-			border-top-color: #CCC;
-			border-top-width: 1px;
-			padding-left: 6px;
-			padding-right: 6px;
-			}
-			
-				#photogallery img
- 			{
-  			width: 100%;
-  			height: auto;
-			padding-left: 6px;
-			padding-right: 6px;
-			padding-top: 3px;
-			padding-bottom: 3px;
-			}
-			
-			#photogallery a:hover
- 			{
-			opacity:0.5;
-			}
-			
-			#message
-				{
-				background-color: rgba(255,0,0,0.6);
-				float: right;
-				margin-top: 40px;
-				margin-right: 40px;
-				}
-				
-			#youtube
-			{
-			border: none;
-			width: 100%;
-			height: 814px;
-			}
+#banner
+	{
+		background-image:url(../images/mediabackground.png);
+	}
+
+h3
+  {
+    text-align: center;
+    font-size: 22px;
+  }
