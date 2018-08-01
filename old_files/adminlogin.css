@@ -1,0 +1,44 @@
+		
+			#banner
+			{
+			background-image:url(../images/DSC_8905s.jpg);
+			}
+			
+			#createcontent
+			{
+			margin-left: 25px;
+			float: left;
+			padding: 25px;
+			margin-top: 25px;
+			border-left-style: solid;
+			border-left-width: 1px;
+			border-left-color: #CCC;
+			font-family: Georgia;
+			line-height: 20px;
+			}
+
+				
+			#loginform
+				{
+				margin-top: 40px;
+				text-align: right;
+				float: left;
+				}
+				
+				textarea
+				{
+				width: 800px;
+				height: 200px;
+				border: 1px dotted #999;
+ 				border-radius: 0;
+				padding: 5px;
+				}
+				
+				#header
+				{
+ 				border: 1px dotted #999;
+ 				border-radius: 0;
+  				width: 300px;
+				margin-bottom: 20px;
+				padding: 5px;
+				}
