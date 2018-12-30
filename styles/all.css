@@ -1,0 +1,158 @@
+/*-------------------------------------------Common CSS Styling-------------------------------------------------*/
+@font-face{
+  font-family:din_light;
+  src:url(../fonts/din_light.otf);
+}
+
+@font-face{
+  font-family:din_medium;
+  src:url(../fonts/din_medium.otf);
+}
+
+@font-face{
+  font-family:din_bold;
+  src:url(../fonts/din_bold.otf);
+}
+
+body{
+  margin:0;
+}
+
+.content{
+  margin:0% 5% 5% 7.5%;
+}
+
+h1{
+  font-family:din_light;
+  flex:10;
+  margin:0;
+  padding-left:1%;
+  font-size:36px;
+}
+
+h2{
+  font-family:din_medium;
+  font-size:21px;
+  color:#7B7B7B;
+  margin-top:5%;
+}
+
+h3{
+  color:#484848;
+  font-family:din_medium;
+  font-size:22px;
+}
+
+p{
+  font-family:din_light;
+  font-size:16px;
+  padding-top:5px;
+}
+
+a{
+
+}
+
+/*------------------------------------------CSS for header elements----------------------------------------------*/
+
+#logo{
+  height:50px;
+}
+
+nav{
+  display:flex;
+  flex-direction:row;
+  margin:1.5% 5% 1.5% 5%;
+}
+
+nav ul{
+  flex-grow:1;
+}
+
+nav ul li{
+  display:inline-block;
+  padding:0% 3%;
+  border-right:dotted;
+  border-right-color:#CCC;
+  border-right-width:1px;
+  vertical-align:middle;
+  font-family:din_medium;
+  font-size:16px;
+}
+
+nav ul li:nth-child(5){
+  border:none;
+}
+
+a{
+  text-decoration:none;
+  color:#800080;
+}
+
+.container{
+  position:relative;
+  text-align:center;
+}
+
+.headerimage{
+  width:100%;
+}
+
+.centerbottom{
+  font-family:din_medium;
+  font-size:40px;
+  position:absolute;
+  bottom:7.5%;
+  width:100%;
+  color:white;
+}
+
+/*-------------------------------------------CSS for Home page--------------------------------------------------*/
+
+.row{
+  display:flex;
+  flex-direction:row;
+  margin-top:7.5%;
+}
+
+.row img{
+  box-shadow: 0 2px 4px 0 gray, 0 3px 10px 0 gray;
+
+}
+
+.righttext{
+  flex-grow:5;
+  margin-left:5%;
+  margin-top:3%;
+}
+
+.lefttext{
+  flex-grow:5;
+  margin-left:2.5%;
+  margin-right:2.5%;
+  margin-top:5%;
+}
+
+.lefttext a{
+  font-weight:bold;
+}
+
+.lefttext a:hover{
+  text-decoration:underline;
+}
+
+.newmembers{
+  width:55%;
+  height:50%;
+}
+
+.ctas{
+  width:55%;
+  height:50%;
+  margin-right:2.5%;
+}
+
+.fa2018{
+  width:55%;
+  height:50%;
+}
