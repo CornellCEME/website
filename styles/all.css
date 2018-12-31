@@ -24,7 +24,6 @@ body{
 
 h1{
   font-family:din_light;
-  flex:10;
   margin:0;
   padding-left:1%;
   font-size:36px;
@@ -55,7 +54,7 @@ a{
 
 /*------------------------------------------CSS for header elements----------------------------------------------*/
 
-#logo{
+.logo{
   height:50px;
 }
 
@@ -66,6 +65,7 @@ nav{
 }
 
 nav ul{
+  text-align:right;
   flex-grow:1;
 }
 
@@ -105,6 +105,72 @@ a{
   bottom:7.5%;
   width:100%;
   color:white;
+}
+
+/*------------------------------------------CSS for footer elements----------------------------------------------*/
+footer{
+  border-top-style:solid;
+  border-top-width:1px;
+  border-top-color:#CCC;
+  margin-bottom:7.5%;
+}
+
+.footer{
+  flex:8;
+  margin:0;
+  padding-top:10px;
+  padding-left:10%;
+  list-style-type:none;
+}
+
+.footer > li{
+  font-family:din_medium;
+  width:15%;
+  float:left;
+}
+
+.footer > li:nth-child(6){
+  width:auto;
+}
+
+.footer a{
+  text-decoration:none;
+  color:#800080;
+}
+
+.footer a:hover{
+  text-decoration:underline;
+}
+
+.sublink{
+  margin:0;
+  padding:0;
+}
+
+.sublink li{
+  display:block;
+  font-family:din_light;
+  font-size:12px;
+  width:auto;
+}
+
+.sublink li a{
+  color:#484848;
+}
+
+.sublink li a:hover{
+  color:#CCC;
+}
+
+.socialmedia li{
+  list-style-type:none;
+  display:inline-block;
+  padding-right:10px;
+}
+
+.socialmedia img{
+  height:40px;
+  padding:0;
 }
 
 /*-------------------------------------------CSS for Home page--------------------------------------------------*/

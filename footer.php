@@ -32,7 +32,7 @@
             <li><a href="apply.php#contact">Contact Us</a></li>
             <li><a href="apply.php#appinfo">Application Information</a></li>
         </ul>
-     </li>
+    </li>
      <li>
      	<ul id="socialmedia">
                <li> <a href="https://www.facebook.com/CornellCEME"><img src="images/facebook.png" alt="facebook" class="social" /></a></li>
