@@ -19,7 +19,7 @@ body{
 }
 
 .content{
-  margin:0% 5% 5% 7.5%;
+  margin:0% 8% 5% 8%;
 }
 
 h1{
@@ -48,8 +48,13 @@ p{
   padding-top:5px;
 }
 
-a{
+.flex{
+  display:flex;
+  flex-direction:row;
+}
 
+.flex img{
+  box-shadow: 0 2px 4px 0 gray, 0 3px 10px 0 gray;
 }
 
 /*------------------------------------------CSS for header elements----------------------------------------------*/
@@ -175,15 +180,8 @@ footer{
 
 /*-------------------------------------------CSS for Home page--------------------------------------------------*/
 
-.row{
-  display:flex;
-  flex-direction:row;
+.yearinreview{
   margin-top:7.5%;
-}
-
-.row img{
-  box-shadow: 0 2px 4px 0 gray, 0 3px 10px 0 gray;
-
 }
 
 .righttext{
@@ -221,4 +219,19 @@ footer{
 .fa2018{
   width:55%;
   height:50%;
+}
+
+/*-------------------------------------------CSS for About page--------------------------------------------------*/
+
+.history{
+  flex:8;
+}
+
+.historyimg{
+  flex:2.25;
+  float: right;
+  width:3%;
+  height:3%;
+  margin-left: 25px;
+  margin-top:3.5%;
 }
