@@ -360,6 +360,14 @@ em{
   margin-top:2.5%;
 }
 
+.left{
+  padding-right:2.5%;
+}
+
+.right{
+  padding-left:2.5%;
+}
+
 .concerttext a{
   font-weight:bold;
 }
@@ -371,7 +379,7 @@ em{
 .concertvideo{
   width:560px;
   height:315px;
-  flex:1;
+  flex:1.1;
 }
 
 .topvideo{
@@ -380,6 +388,35 @@ em{
 
 iframe{
   box-shadow: 0 2px 4px 0 gray, 0 3px 10px 0 gray;
+}
+
+#smallensemble{
+  margin-top:7.5%;
+}
+
+.smallensemble{
+  list-style-type:none;
+  margin-top:5%;
+  margin-left:-5%;
+  margin-right:-3%;
+}
+
+.smallensemble li{
+  display:inline-block;
+  width:30%;
+  padding:0 10px;
+  margin-right:auto;
+  margin-left:auto;
+  margin-bottom:5%;
+}
+
+.smallensemble li iframe{
+  width:100%;
+  height:200px;
+}
+
+.smallensemble li .caption{
+  margin-top:5%;
 }
 
 /*-------------------------------------------Media Queries--------------------------------------------------*/
