@@ -351,6 +351,37 @@ em{
   text-decoration:line-through;
 }
 
+/*-------------------------------------------CSS for Music elements--------------------------------------------------*/
+
+.concerttext{
+  flex:1;
+  margin-left:2.5%;
+  margin-right:2.5%;
+  margin-top:2.5%;
+}
+
+.concerttext a{
+  font-weight:bold;
+}
+
+.concerttext a:hover{
+  text-decoration:underline;
+}
+
+.concertvideo{
+  width:560px;
+  height:315px;
+  flex:1;
+}
+
+.topvideo{
+  margin-top:5%;
+}
+
+iframe{
+  box-shadow: 0 2px 4px 0 gray, 0 3px 10px 0 gray;
+}
+
 /*-------------------------------------------Media Queries--------------------------------------------------*/
 
 @media (max-width: 1100px){
