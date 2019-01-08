@@ -1,0 +1,454 @@
+/*-------------------------------------------Common CSS Styling-------------------------------------------------*/
+@font-face{
+  font-family:din_light;
+  src:url(../fonts/din_light.otf);
+}
+
+@font-face{
+  font-family:din_medium;
+  src:url(../fonts/din_medium.otf);
+}
+
+@font-face{
+  font-family:din_bold;
+  src:url(../fonts/din_bold.otf);
+}
+
+body{
+  margin:0;
+  padding:0;
+}
+
+.content{
+  margin:0% 8% 5% 8%;
+}
+
+h1{
+  font-family:din_light;
+  margin:0;
+  padding-left:1%;
+  font-size:36px;
+}
+
+h2{
+  font-family:din_medium;
+  font-size:21px;
+  color:#7B7B7B;
+  margin-top:5%;
+}
+
+p{
+  font-family:din_light;
+  font-size:16px;
+  padding-top:5px;
+}
+
+.row{
+  display:flex;
+  flex-direction:row;
+}
+
+.row img{
+  box-shadow: 0 2px 4px 0 gray, 0 3px 10px 0 gray;
+}
+
+/*------------------------------------------CSS for header elements----------------------------------------------*/
+
+.logo{
+  height:50px;
+}
+
+nav{
+  display:flex;
+  flex-direction:row;
+  margin:1.5% 5% 1.5% 5%;
+}
+
+nav ul{
+  text-align:right;
+  flex-grow:1;
+}
+
+nav ul li{
+  display:inline-block;
+  padding:0% 3%;
+  border-right:dotted;
+  border-right-color:#CCC;
+  border-right-width:1px;
+  vertical-align:middle;
+  font-family:din_medium;
+  font-size:16px;
+}
+
+nav ul li:nth-child(5){
+  border:none;
+}
+
+a{
+  text-decoration:none;
+  color:#800080;
+}
+
+.container{
+  position:relative;
+  text-align:center;
+}
+
+.headerimage{
+  width:100%;
+}
+
+.centerbottom{
+  font-family:din_medium;
+  font-size:40px;
+  position:absolute;
+  bottom:7.5%;
+  width:100%;
+  color:white;
+}
+
+/*------------------------------------------CSS for footer elements----------------------------------------------*/
+footer{
+  border-top-style:solid;
+  border-top-width:1px;
+  border-top-color:#CCC;
+  margin-bottom:7.5%;
+}
+
+.footer{
+  flex:8;
+  margin:0;
+  padding-top:10px;
+  padding-left:10%;
+  list-style-type:none;
+}
+
+.footer > li{
+  font-family:din_medium;
+  width:15%;
+  float:left;
+}
+
+.footer > li:nth-child(6){
+  width:auto;
+}
+
+.footer a{
+  text-decoration:none;
+  color:#800080;
+}
+
+.footer a:hover{
+  text-decoration:underline;
+}
+
+.sublink{
+  margin:0;
+  padding:0;
+}
+
+.sublink li{
+  display:block;
+  font-family:din_light;
+  font-size:12px;
+  width:auto;
+}
+
+.sublink li a{
+  color:#484848;
+}
+
+.sublink li a:hover{
+  color:#CCC;
+}
+
+.socialmedia li{
+  list-style-type:none;
+  display:inline-block;
+  padding-right:10px;
+}
+
+.socialmedia img{
+  height:40px;
+  padding:0;
+}
+
+/*-------------------------------------------CSS for Index page--------------------------------------------------*/
+
+.yearinreview{
+  margin-top:7.5%;
+}
+
+h3{
+  color:#484848;
+  font-family:din_bold;
+  font-size:22px;
+}
+
+.righttext{
+  flex-grow:5;
+  margin-left:5%;
+  margin-top:3%;
+}
+
+.lefttext{
+  flex-grow:5;
+  margin-left:2.5%;
+  margin-right:2.5%;
+  margin-top:5%;
+}
+
+.yearinreview a{
+  font-weight:bold;
+}
+
+.yearinreview a:hover{
+  text-decoration:underline;
+}
+
+.newmembers{
+  width:55%;
+  height:50%;
+}
+
+.ctas{
+  width:55%;
+  height:50%;
+  margin-right:2.5%;
+}
+
+.fa2018{
+  width:55%;
+  height:50%;
+}
+
+/*-------------------------------------------CSS for About page--------------------------------------------------*/
+
+.history{
+  flex:8;
+}
+
+.historyimg{
+  flex:2.25;
+  float: right;
+  width:3%;
+  height:3%;
+  margin-left: 25px;
+  margin-top:3.5%;
+}
+
+/*-------------------------------------------CSS for Members page--------------------------------------------------*/
+
+h4{
+  font-family:din_light;
+  font-size:18px;
+  text-align:center;
+  padding:10px;
+}
+
+.buttons{
+  text-align:center;
+}
+
+.solidbutton{
+  display:inline-block;
+  width:180px;
+  border-color:#CF2C32;
+  border-style:none;
+  background-color:#CF2C32;
+  border-radius:15px;
+  color:white;
+  margin-top:30px;
+  margin-left:2.5%;
+  margin-right:2.5%;
+}
+
+.borderbutton{
+  display:inline-block;
+  width:180px;
+  border-radius:15px;
+  border:2px solid #CF2C32;
+  background-color:white;
+  color:#CF2C32;
+  margin-top:30px;
+  margin-left:2.5%;
+  margin-right:2.5%;
+}
+
+.borderbutton:hover{
+  border:2px solid black;
+  color:black;
+}
+
+#current{
+  list-style-type:none;
+  margin-top:5%;
+  margin-left:-5%;
+  margin-right:-3%;
+}
+
+#current li{
+  display:inline-block;
+  width:22.5%;
+  padding:0 10px;
+  margin-right:auto;
+  margin-left:auto;
+  margin-bottom:5%;
+}
+
+.profilepic{
+  width:100%;
+  height:auto;
+}
+
+.column{
+    display:flex;
+    flex-direction:column;
+}
+
+.caption h3{
+  font-family:din_bold;
+  font-size:18px;
+  text-align:center;
+  padding:0;
+  margin:5px;
+}
+
+.eboard{
+  font-style:italic;
+  text-align:center;
+  font-size:16px;
+  padding-top:0;
+  padding-bottom:10px;
+  margin:0;
+}
+
+.bio{
+  text-align:justify;
+  font-size:15px;
+  padding-top:0;
+  padding-bottom:0px;
+  margin:0;
+}
+
+.alumni{
+  list-style-type:none;
+  margin-top:5%;
+  margin-left:-5%;
+  margin-right:-3%;
+}
+
+.alumni li{
+  display:inline-block;
+  width:22.5%;
+  padding:0 10px;
+  margin-right:auto;
+  margin-left:auto;
+  margin-bottom:5%;
+}
+
+em{
+  text-decoration:line-through;
+}
+
+/*-------------------------------------------CSS for Music elements--------------------------------------------------*/
+
+.concerttext{
+  flex:1;
+  margin-left:2.5%;
+  margin-right:2.5%;
+  margin-top:2.5%;
+}
+
+.left{
+  padding-right:2.5%;
+}
+
+.right{
+  padding-left:2.5%;
+}
+
+.concerttext a{
+  font-weight:bold;
+}
+
+.concerttext a:hover{
+  text-decoration:underline;
+}
+
+.concertvideo{
+  width:560px;
+  height:315px;
+  flex:1.1;
+}
+
+.topvideo{
+  margin-top:5%;
+}
+
+iframe{
+  box-shadow: 0 2px 4px 0 gray, 0 3px 10px 0 gray;
+}
+
+#smallensemble{
+  margin-top:7.5%;
+}
+
+.smallensemble{
+  list-style-type:none;
+  margin-top:5%;
+  margin-left:-5%;
+  margin-right:-3%;
+}
+
+.smallensemble li{
+  display:inline-block;
+  width:30%;
+  padding:0 10px;
+  margin-right:auto;
+  margin-left:auto;
+  margin-bottom:5%;
+}
+
+.smallensemble li iframe{
+  width:100%;
+  height:200px;
+}
+
+.smallensemble li .caption{
+  margin-top:5%;
+}
+
+/*-------------------------------------------Media Queries--------------------------------------------------*/
+
+@media (max-width: 1100px){
+  #current li{
+    display:inline-block;
+    width:30%;
+    padding:0 10px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom:5%;
+  }
+}
+
+@media (max-width: 820px){
+  #current li{
+    display:inline-block;
+    width:45%;
+    padding:0 10px;
+    margin-bottom:5%;
+  }
+}
+
+@media (max-width: 600px){
+  #current li{
+    display:inline-block;
+    width:100%;
+    padding:0 20px;
+    margin-right:0;
+    margin-left:-7%;
+    margin-bottom:5%;
+    text-align:center;
+  }
+}
