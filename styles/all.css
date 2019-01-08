@@ -325,20 +325,20 @@ h4{
 
 .bio{
   text-align:justify;
-  font-size:14px;
+  font-size:15px;
   padding-top:0;
   padding-bottom:0px;
   margin:0;
 }
 
-#alumni{
+.alumni{
   list-style-type:none;
   margin-top:5%;
   margin-left:-5%;
   margin-right:-3%;
 }
 
-#alumni li{
+.alumni li{
   display:inline-block;
   width:22.5%;
   padding:0 10px;
@@ -347,8 +347,8 @@ h4{
   margin-bottom:5%;
 }
 
-.hide{
-  display:none;
+em{
+  text-decoration:line-through;
 }
 
 /*-------------------------------------------Media Queries--------------------------------------------------*/
